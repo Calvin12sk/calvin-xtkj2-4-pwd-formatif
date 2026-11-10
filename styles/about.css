@@ -1,0 +1,70 @@
+/* --- 1. Font Section --- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:wght@600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;
+}
+
+/* --- 2. Background Section --- */
+#about {
+    background-image: linear-gradient(rgba(15, 23, 42, 0.5), rgba(15, 23, 42, 0.7)), url('../assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px 20px;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- 3. Text & Layout Section --- */
+.about-box {
+    width: 620px;
+    background-color: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(8px);
+    padding: 40px 45px;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.about-box h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #0f172a;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.about-box p {
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: left;
+    color: #334155;
+    margin-bottom: 18px;
+}
+
+.about-box .closing {
+    text-align: right;
+    font-style: italic;
+    color: #d97706;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+footer a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+}
